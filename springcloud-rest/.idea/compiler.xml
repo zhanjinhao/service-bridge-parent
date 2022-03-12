@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-rest-interface" />
+        <module name="springcloud-rest-provider-2" />
+        <module name="springcloud-rest-registry" />
+        <module name="springcloud-rest-provider-manual" />
+        <module name="springcloud-rest-provider" />
+        <module name="springcloud-rest-consumer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

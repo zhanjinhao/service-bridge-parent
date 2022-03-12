@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.isjinhao</groupId>
+    <artifactId>service-bridge</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>expose-service-driver</module>
+        <module>service-bridge-core</module>
+        <module>pull-service-driver</module>
+        <module>service-bridge-client</module>
+        <module>service-bridge-common</module>
+        <module>grpc-rpc-native-common</module>
+        <module>grpc-rpc-native-consumer</module>
+        <module>service-bridge-dashboard</module>
+        <module>test</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <com.alibaba.fastjson>1.2.68</com.alibaba.fastjson>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <org.yaml.version>1.26</org.yaml.version>
+        <io.netty.netty-all>4.1.50.Final</io.netty.netty-all>
+        <org.apache.zookeeper.zookeeper>3.4.9</org.apache.zookeeper.zookeeper>
+        <com.google.guava.guava>20.0</com.google.guava.guava>
+        <org.apache.curator.curator-recipes>2.9.1</org.apache.curator.curator-recipes>
+        <org.apache.curator.curator-framework>2.9.1</org.apache.curator.curator-framework>
+        <javax.servlet.javax.servlet-api>3.1.0</javax.servlet.javax.servlet-api>
+        <org.apache.logging.log4j.log4j-slf4j-impl>2.12.1</org.apache.logging.log4j.log4j-slf4j-impl>
+        <com.lmax.disruptor>3.4.2</com.lmax.disruptor>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${com.alibaba.fastjson}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${org.yaml.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${io.netty.netty-all}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${org.apache.zookeeper.zookeeper}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${org.apache.curator.curator-recipes}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${com.google.guava.guava}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${org.apache.curator.curator-framework}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet.javax.servlet-api}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j-impl</artifactId>
+                <version>${org.apache.logging.log4j.log4j-slf4j-impl}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>${com.lmax.disruptor}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

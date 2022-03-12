@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <title>Service Bridge - Ps</title>
+		
+		<!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		
+		<!-- Feathericon CSS -->
+        <link rel="stylesheet" href="assets/css/feathericon.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<link rel="stylesheet" href="assets/css/style-me.css">
+
+		<link rel="stylesheet" href="other/pagination/pagination.css">
+
+		<link rel="stylesheet" href="assets/plugins/boostrap-select/bootstrap-select.min.css">
+
+    </head>
+    <body  ng-app="sb" ng-controller="psController" ng-init="">
+	
+		<!-- Main Wrapper -->
+        <div class="main-wrapper">
+		
+			<!-- Header -->
+            <div class="header">
+			
+				<!-- Logo -->
+                <div class="header-left">
+                    <a href="index.html" class="logo">
+						<img src="assets/img/logo.png" alt="Logo">
+					</a>
+					<a href="index.html" class="logo logo-small">
+						<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+					</a>
+                </div>
+				<!-- /Logo -->
+				
+				<a href="javascript:void(0);" id="toggle_btn">
+					<i class="fe fe-text-align-left"></i>
+				</a>
+
+				<div class="top-nav-search">
+					<form>
+						<input type="text" id="searchStubsNameLike" class="form-control" placeholder="Search Stub Here">
+						<button ng-click="searchStubs();"  class="btn" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+
+				<!-- Mobile Menu Toggle -->
+				<a class="mobile_btn" id="mobile_btn">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+            </div>
+			<!-- /Header -->
+			
+			<!-- Sidebar -->
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-inner slimscroll">
+					<div id="sidebar-menu" class="sidebar-menu">
+						<ul>
+							<li>
+								<a href="jar.html"><i class="fe fe-home"></i> <span>Jars</span></a>
+							</li>
+							<li class="active">
+								<a href="ps.html"><i class="fe fe-home"></i> <span>Provider Systems</span></a>
+							</li>
+							<li> 
+								<a href="cs.html"><i class="fe fe-home"></i> <span>Consumer Systems</span></a>
+							</li>
+							<li>
+								<a href="#" ng-click="clearBuildSkeletonManualInfo();"  data-toggle="modal" data-target="#buildStubManual"><i class="fe fe-home"></i><span>构建桩</span></a>
+							</li>
+						</ul>
+					</div>
+                </div>
+            </div>
+			<!-- /Sidebar -->
+			
+			<!-- Page Wrapper -->
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="table-responsive">
+										<table class="table mb-0 table-stripped" style="text-align: center">
+											<thead>
+												<tr>
+													<th>SPSID</th>
+													<th>包名</th>
+													<th>服务名</th>
+													<th>版本号</th>
+													<th>状态</th>
+													<th>操作</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr ng-repeat="stubInfo in stubInfos">
+													<td>{{stubInfo.spsid}}</td>
+													<td>{{stubInfo.jarName}}</td>
+													<td>{{stubInfo.serviceName}}</td>
+													<td>{{stubInfo.version}}</td>
+													<td ng-if="stubInfo.state == 1">
+														已构建
+													</td>
+													<td ng-if="stubInfo.state == 2">
+														未构建
+													</td>
+													<td class="text-center">
+														<a data-toggle="modal" data-target="#buildStub" ng-click="clearBuildStubInfo();">
+															<button type="button" ng-if="stubInfo.state == 2" ng-click="buildStub(stubInfo.spsid, stubInfo.serviceName, stubInfo.version);getPsJarName(stubInfo.spsid);getPsJarName(stubInfo.spsid);" class="btn btn-primary btn-sm">构建桩</button>
+														</a>
+															<button type="button" ng-if="stubInfo.state == 1" ng-click="removeStub(stubInfo.spsid, stubInfo.jarName, stubInfo.serviceName, stubInfo.version);" class="btn btn-primary btn-sm">删除桩</button>
+														<a data-toggle="modal" data-target="#buildSkeleton" ng-click="clearBuildSkeletonInfo();">
+															<button type="button" ng-if="stubInfo.state == 1" ng-click="buildSkeleton(stubInfo.spsid, stubInfo.serviceName, stubInfo.version);getAllScsid(stubInfo.spsid, stubInfo.serviceName, stubInfo.version);getAllScsid(stubInfo.spsid, stubInfo.serviceName, stubInfo.version);" class="btn btn-primary btn-sm">构建骨架</button>
+														</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<tm-pagination conf="psInfosPagination"></tm-pagination>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Main Wrapper -->
+		
+        </div>
+		<!-- /Main Wrapper -->
+
+		<div class="modal fade" id="buildStub" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xl-12 d-flex">
+								<div class="card flex-fill" style="box-shadow: 0 0 0px rgba(0, 0, 0, 0); margin: 0px; padding: 0px;">
+									<div class="card-body">
+										<form action="#">
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SPSID</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildStubSpsid" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">包名</label>
+												<div class="col-lg-9">
+													<select class="selectpicker" id="buildStubJarName" data-live-search="true" data-live-search-placeholder="Search" data-actions-box="true" data-width="100%">
+														<option ng-repeat="jarName in jarNames">{{jarName}}</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">服务名</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildStubServiceName" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">版本号</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildStubVersion" readonly="readonly" class="form-control">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h5 class="error-me" id="buildStubInfo"></h5>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal" ng-click="refreshCurrent();">关闭</button>
+						<button type="button" class="btn btn-primary" id="realLoadJarButton" ng-click="realBuildStub();">构建</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal -->
+		</div>
+
+		<div class="modal fade" id="buildSkeleton" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xl-12 d-flex">
+								<div class="card flex-fill" style="box-shadow: 0 0 0px rgba(0, 0, 0, 0); margin: 0px; padding: 0px;">
+									<div class="card-body">
+										<form action="#">
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SCSID</label>
+												<div class="col-lg-9">
+													<select class="selectpicker" id="buildSkeletonScsid" data-live-search="true" data-live-search-placeholder="Search" data-actions-box="true" data-width="100%">
+														<option ng-repeat="scsid in scsids">{{scsid}}</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SPSID</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonSpsid" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">服务名</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonServiceName" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">版本号</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonVersion" readonly="readonly" class="form-control">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h5 class="error-me" id="buildSkeletonInfo"></h5>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						<button type="button" class="btn btn-primary"  ng-click="realBuildSkeleton();">构建</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal -->
+		</div>
+
+		<div class="modal fade" id="buildStubManual" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xl-12 d-flex">
+								<div class="card flex-fill" style="box-shadow: 0 0 0px rgba(0, 0, 0, 0); margin: 0px; padding: 0px;">
+									<div class="card-body">
+										<form action="#">
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SPSID</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonManualSpsid" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">包名</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonManualJarName" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">服务名</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonManualServiceName" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">版本号</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="buildSkeletonManualVersion" class="form-control">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h5 class="error-me" id="buildSkeletonManualInfo"></h5>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" ng-click="refreshCurrent();" data-dismiss="modal">关闭</button>
+						<button type="button" class="btn btn-primary" ng-click="realBuildSkeletonManual();">构建</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal -->
+		</div>
+
+		<!-- jQuery -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Slimscroll JS -->
+        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script  src="assets/js/script.js"></script>
+
+		<script src="assets/js/holder.min.js"></script>
+
+		<script src="other/angularjs/angular.min.js"></script>
+		<script src="other/pagination/tm.pagination.min.js"></script>
+		<script src="other/service/base_pagination.js"></script>
+		<script src="other/controller/baseController.js"></script>
+		<script src="other/controller/psController.js"></script>
+
+		<script src="assets/plugins/boostrap-select/bootstrap-select.min.js"></script>
+
+    </body>
+</html>

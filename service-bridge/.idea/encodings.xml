@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-grpc-native/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-sofarpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expose-service-driver-sofarpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/expose-service-driver/expsoe-service-driver-grpc-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc-rpc-native-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc-rpc-native-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grpc-rpc-native-consumer/src/main/java/GrpcNativeConsumer1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-grpc-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-grpc-native/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-sofarpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-sofarpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pull-service-driver/pull-service-driver-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-bridge-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

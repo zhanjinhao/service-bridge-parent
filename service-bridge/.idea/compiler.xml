@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pull-service-driver-interface" />
+        <module name="test" />
+        <module name="pull-service-driver-dubbo" />
+        <module name="expsoe-service-driver-grpc-dubbo" />
+        <module name="expose-service-driver-grpc" />
+        <module name="pull-service-driver-springcloud" />
+        <module name="pull-service-driver-grpc-dubbo" />
+        <module name="service-bridge-client" />
+        <module name="pull-service-driver-sofarpc" />
+        <module name="expose-service-driver-interface" />
+        <module name="grpc-rpc-native-common" />
+        <module name="grpc-rpc-native-consumer" />
+        <module name="pull-service-driver-grpc-native" />
+        <module name="expose-service-driver-rest" />
+        <module name="service-bridge-dashboard" />
+        <module name="expose-service-driver-sofarpc" />
+        <module name="expose-service-driver-dubbo" />
+        <module name="expose-service-driver-grpc-native" />
+        <module name="service-bridge-common" />
+        <module name="service-bridge-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-interface" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubbo-test" target="1.8" />
+      <module name="dynamic-load-test" target="1.8" />
+      <module name="expose-service-driver-grpc" target="1.8" />
+      <module name="expose-service-driver-grpc-dubbo" target="1.8" />
+      <module name="expose-service-driver-rest (1)" target="1.8" />
+      <module name="expose-service-driver-springcloud" target="1.8" />
+      <module name="reflect-test" target="1.8" />
+      <module name="service-bridge-springcloud-client" target="1.8" />
+      <module name="sofarpc-consumer" target="1.8" />
+      <module name="sofarpc-interface" target="1.8" />
+      <module name="sofarpc-provider" target="1.8" />
+      <module name="sofarpc-test" target="1.8" />
+      <module name="spi-core" target="1.8" />
+      <module name="spi-impl1" target="1.8" />
+      <module name="spi-interface" target="1.8" />
+      <module name="spi-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-interface" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dynamic-load-test" options="-parameters" />
+      <module name="expose-service-driver-dubbo" options="-parameters" />
+      <module name="expose-service-driver-grpc" options="-parameters" />
+      <module name="expose-service-driver-grpc-dubbo" options="-parameters" />
+      <module name="expose-service-driver-grpc-native" options="-parameters" />
+      <module name="expose-service-driver-interface" options="-parameters" />
+      <module name="expose-service-driver-rest" options="-parameters" />
+      <module name="expose-service-driver-rest (1)" options="-parameters" />
+      <module name="expose-service-driver-sofarpc" options="-parameters" />
+      <module name="expose-service-driver-springcloud" options="-parameters" />
+      <module name="expsoe-service-driver-grpc-dubbo" options="-parameters" />
+      <module name="grpc-rpc-native-common" options="-parameters" />
+      <module name="grpc-rpc-native-consumer" options="-parameters" />
+      <module name="pull-service-driver-dubbo" options="-parameters" />
+      <module name="pull-service-driver-grpc-dubbo" options="-parameters" />
+      <module name="pull-service-driver-grpc-native" options="-parameters" />
+      <module name="pull-service-driver-interface" options="-parameters" />
+      <module name="pull-service-driver-sofarpc" options="-parameters" />
+      <module name="pull-service-driver-springcloud" options="-parameters" />
+      <module name="reflect-test" options="-parameters" />
+      <module name="service-bridge-client" options="-parameters" />
+      <module name="service-bridge-common" options="-parameters" />
+      <module name="service-bridge-core" options="-parameters" />
+      <module name="service-bridge-dashboard" options="-parameters" />
+      <module name="service-bridge-springcloud-client" options="-parameters" />
+      <module name="sofarpc-consumer" options="-parameters" />
+      <module name="sofarpc-interface" options="-parameters" />
+      <module name="sofarpc-provider" options="-parameters" />
+      <module name="spi-core" options="-parameters" />
+      <module name="spi-impl1" options="-parameters" />
+      <module name="spi-interface" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

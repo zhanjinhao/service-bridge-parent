@@ -1,0 +1,4 @@
+2020-06-07 12:11:59.677 [main] [INFO ] ServiceDriver : {pull-service-driver-grpc-native=sb.pull.grpc.PullServiceDriverGrpcNative@61d47554}
+2020-06-07 12:11:59.680 [main] [INFO ] ServiceDriver : {expose-service-driver-grpc-native=sb.expose.grpc.ExposeServiceDriverGrpcNative@4461c7e3}
+2020-06-07 12:11:59.755 [main] [INFO ] sb.core.init.config.MicroserviceSystemConfig : {ps-localhost-grpc-native-1=ProviderSystem@212bf671, ps-localhost-grpc-native-2=ProviderSystem@14a2f921}
+2020-06-07 12:11:59.755 [main] [INFO ] sb.core.init.config.MicroserviceSystemConfig : {cs-localhost-grpc-native=ConsumerSystem@3c87521}

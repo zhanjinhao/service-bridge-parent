@@ -1,0 +1,185 @@
+
+
+
+        ClassPool pool = ClassPool.getDefault();
+//        CtClass testService = pool.makeClass("sb.core.web.TestServices");
+//        CtClass result = pool.get("sb.core.pojo.Result");
+//        CtClass ctClass = pool.get("");
+//
+//        ClassFile classFile = testService.getClassFile();
+//        ConstPool constPool = classFile.getConstPool();
+//
+//        // CtClass returnType, String mname, CtClass[] parameters
+//        new CtMethod(result, "test", new CtClass[]{}, constPool);
+//
+//        CtMethod method = CtMethod.make("public String test() { return \"input String is:\"; }", testService);
+//        AnnotationsAttribute methodAttr = new AnnotationsAttribute(constPool, AnnotationsAttribute.visibleTag);
+//        Annotation requestMapping = new Annotation("org.springframework.web.bind.annotation.RequestMapping", constPool);
+//        Annotation responseBody = new Annotation("org.springframework.web.bind.annotation.ResponseBody", constPool);
+//        requestMapping.addMemberValue("value", new ArrayMemberValue(new StringMemberValue("register", constPool), constPool));
+//        methodAttr.addAnnotation(requestMapping);
+//        methodAttr.addAnnotation(responseBody);
+//        MethodInfo info = method.getMethodInfo();
+//        info.addAttribute(methodAttr);
+//        testService.addMethod(method);
+//
+//        Class aClass = testService.toClass();
+//
+//        Constructor[] constructors = aClass.getConstructors();
+//        for(Constructor c : constructors)
+//            System.out.println(c);
+//
+//        Object o = aClass.newInstance();
+//
+//        Method test = aClass.getMethod("test");
+//        Object invoke = test.invoke(o);
+//        System.out.println(invoke);
+//
+//        DynamicLoadUtils.addBean(aClass, "testServices", run);
+//        DynamicLoadUtils.registerController("testServices");
+
+    }
+
+
+//    public void makeclass(String className,String methodName, CONSTANTS.INVOKETYPE invoketype,String interfaceCode) throws NotFoundException, CannotCompileException, IOException {
+//        ClassPool pool = ClassPool.getDefault();
+//        CtClass clazz = pool.makeClass(className);
+//        ClassFile ccFile = clazz.getClassFile();
+//        ConstPool constpool = ccFile.getConstPool();
+//
+//        CtClass executor = pool.get("com.javassist.test.Executor");
+//        CtClass requst = pool.get("javax.servlet.http.HttpServletRequest");
+//        CtClass response = pool.get("javax.servlet.http.HttpServletResponse");
+//
+//        String fieldName = invoketype.getValue();
+//        // 增加字段
+//        CtField field = new CtField(executor,fieldName,clazz);
+//        field.setModifiers(Modifier.PUBLIC);
+//        FieldInfo fieldInfo = field.getFieldInfo();
+//
+//        // 属性附上注解
+//        AnnotationsAttribute fieldAttr = new AnnotationsAttribute(constpool, AnnotationsAttribute.visibleTag);
+//        Annotation autowired = new Annotation("org.springframework.beans.factory.annotation.Autowired",constpool);
+//        fieldAttr.addAnnotation(autowired);
+//        fieldInfo.addAttribute(fieldAttr);
+//        clazz.addField(field);
+//
+//        // 增加方法，javassist可以直接将字符串set到方法体中，所以使用时非常方便
+//        CtMethod method = new CtMethod(new CtClassType(CtClass.javaLangObject,pool),methodName,new CtClass[]{requst,response},clazz);
+//        method.setModifiers(java.lang.reflect.Modifier.PUBLIC);
+//        StringBuffer methodBody = new StringBuffer();
+//        methodBody.append("{return "+fieldName+".execute(\""+interfaceCode+"\",(com.javassist.test.RequestVo)$1.getAttribute(\"request\"));}");
+//        method.setBody(methodBody.toString());
+//
+//
+//
+//        // 类附上注解
+//        AnnotationsAttribute classAttr = new AnnotationsAttribute(constpool, AnnotationsAttribute.visibleTag);
+//        Annotation controller = new Annotation("org.springframework.stereotype.Controller",constpool);
+//        Annotation requestMapping = new Annotation("org.springframework.web.bind.annotation.RequestMapping.RequestMapping",constpool);
+//        String visitPath = "/api/department";
+//        requestMapping.addMemberValue("value",new StringMemberValue(visitPath,constpool));
+//        classAttr.addAnnotation(controller);
+//        classAttr.addAnnotation(requestMapping);
+//        ccFile.addAttribute(classAttr);
+//
+//        //方法附上注解
+//        AnnotationsAttribute methodAttr = new AnnotationsAttribute(constpool, AnnotationsAttribute.visibleTag);
+//        //Annotation annotation3 = new Annotation("org.springframework.web.bind.annotation.RequestMapping.RequestMapping",constpool);
+//        requestMapping.addMemberValue("value",new StringMemberValue("/register",constpool));
+//
+//        Annotation responseBody = new Annotation("org.springframework.web.bind.annotation.RequestMapping.ResponseBody",constpool);
+//        methodAttr.addAnnotation(requestMapping);
+//        methodAttr.addAnnotation(responseBody);
+//        MethodInfo info = method.getMethodInfo();
+//        info.addAttribute(methodAttr);
+//        clazz.addMethod(method);
+//        clazz.writeFile();
+//
+//    }
+
+
+
+    private static Class[] getMethodTypes(String jsonString, ClassLoader loader) throws Exception {
+
+        Class<?> mapClazz = loader.loadClass("java.util.Map");
+        Class<?> setClass = loader.loadClass("java.util.Set");
+        Class<?> iteratorClass = loader.loadClass("java.util.Iterator");
+
+        Object mapObj = JSON.parseObject(jsonString, mapClazz);
+        Method keySet = mapClazz.getMethod("keySet");
+
+        Object setObj = keySet.invoke(mapObj);
+        Method iteratorMethod = setClass.getMethod("iterator");
+        Method sizeMethod = setClass.getMethod("size");
+        Integer size = (Integer) sizeMethod.invoke(setObj);
+
+        Object iteratorObj = iteratorMethod.invoke(setObj);
+        Method hasNext = iteratorClass.getMethod("hasNext");
+        Method next = iteratorClass.getMethod("next");
+
+        Class[] classes = new Class[size];
+        String[] keys = new String[size];
+
+        int i = 0;
+        while (Boolean.valueOf(hasNext.invoke(iteratorObj).toString())) {
+            String className = next.invoke(iteratorObj).toString().split("-")[0];
+
+            classes[i] = loader.loadClass(className);
+            keys[i] = className;
+            i++;
+        }
+
+        threadKeys.set(keys);
+        return classes;
+    }
+
+
+ 
+ 
+public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException {
+        // TODO Auto-generated method stub
+        // 创建类  
+            ClassPool pool = ClassPool.getDefault();  
+            CtClass cls = pool.makeClass("com.situ.super.Sclass");  
+            try { 
+            // 添加私有成员name及其getter、setter方法  
+            CtField param = new CtField(pool.get("java.lang.String"), "name", cls); //相当于private String name
+            param.setModifiers(Modifier.PRIVATE);  //私有修饰
+        cls.addMethod(CtNewMethod.setter("setName", param));//增加set方法，名字为"setName"
+            cls.addMethod(CtNewMethod.getter("getName", param));//增加get方法，名字为getname
+            cls.addField(param, Initializer.constant("")); //写入class文件 
+              
+            // 添加无参的构造体  
+            CtConstructor cons = new CtConstructor(new CtClass[] {}, cls);  //相当于public Sclass(){this.name = "brant";}
+            cons.setBody("{name = \"Brant\";}");  
+            cls.addConstructor(cons);  
+              
+            // 添加有参的构造体  
+            cons = new CtConstructor(new CtClass[] {pool.get("java.lang.String")}, cls);//把参数列表写在本行  
+            cons.setBody("{$0.name = $1;}");  //第一个传入的形参$1,$2第二个传入的形参，相当于public Sclass(String s){this.name = s;}
+            cls.addConstructor(cons);  
+ 
+                //把生成的class文件写入文件,也可以不写入
+                byte[] byteArr = ctClass.toBytecode();  
+                FileOutputStream fos = new FileOutputStream(new File("D://Emp.class"));  
+                fos.write(byteArr);  
+                fos.close();  
+ 
+            } catch (CannotCompileException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (NotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }  
+            // 打印创建类的类名  
+            try {
+                System.out.println(cls.toClass());
+            } catch (CannotCompileException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }  
+            
+      
+    }

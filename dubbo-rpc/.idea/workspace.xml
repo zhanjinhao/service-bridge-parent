@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dubbo-rpc-provider:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af6c51a5-b3a0-4499-84cd-256c359923e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_rpc_provider_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-rpc-provider/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-rpc-provider/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-rpc-provider/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/dubbo_rpc_provider_jar/dubbo-rpc-provider.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/.idea/artifacts/grpc_rpc_native_1_provider_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/.idea/artifacts/grpc_rpc_native_1_provider_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/out/artifacts/grpc_rpc_native_1_provider_1_jar/grpc-rpc-native-1-provider-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/out/artifacts/grpc_rpc_native_1_provider_2_jar/grpc-rpc-native-1-provider-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-2/out/artifacts/grpc_rpc_native_2_provider_1_jar/grpc-rpc-native-2-provider-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-2/out/artifacts/grpc_rpc_native_2_provider_2_jar/grpc-rpc-native-2-provider-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/.idea/artifacts/service_bridge_core_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/jar_directory/springcloud-rest-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/HdrHistogram-2.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/LatencyUtils-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/bolt-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/commons-io-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/commons-logging-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/curator-client-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/curator-framework-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/curator-recipes-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/disruptor-3.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/dubbo-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/fastjson-1.2.56.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/hessian-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/hibernate-validator-6.0.16.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/httpclient-4.5.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/httpcore-4.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-core-asl-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-datatype-jdk8-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-datatype-jsr310-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-jaxrs-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-mapper-asl-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-module-parameter-names-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jackson-xc-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jaxen-1.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jaxrs-api-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jboss-annotations-api_1.1_spec-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jcip-annotations-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jline-0.9.94.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/jul-to-slf4j-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/micrometer-core-1.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/netty-3.10.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/netty-3.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/netty-all-4.1.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/resteasy-client-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/resteasy-jackson-provider-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/resteasy-jaxrs-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/resteasy-netty4-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/service-bridge-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/sofa-common-tools-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/sofa-rpc-all-5.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-actuator-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-actuator-autoconfigure-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-autoconfigure-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-actuator-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-aop-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-json-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-logging-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-thymeleaf-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-tomcat-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-boot-starter-web-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/tomcat-embed-core-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/tomcat-embed-el-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/tomcat-embed-websocket-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/xml-apis-1.4.01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/out/artifacts/service_bridge_core_jar/zookeeper-3.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/util/LoadJarToAppClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/sb/core/util/LoadJarToAppClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/HdrHistogram-2.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/LatencyUtils-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/bolt-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/commons-io-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/commons-logging-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/curator-client-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/curator-framework-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/curator-recipes-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/disruptor-3.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/dubbo-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/expose-service-driver-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/expose-service-driver-rest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/expose-service-driver-sofarpc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/fastjson-1.2.56.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/hessian-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/hibernate-validator-6.0.16.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/httpclient-4.5.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-core-asl-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-datatype-jdk8-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-datatype-jsr310-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-jaxrs-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-mapper-asl-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-module-parameter-names-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jackson-xc-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jaxen-1.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jaxrs-api-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jboss-annotations-api_1.1_spec-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jcip-annotations-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jline-0.9.94.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/jul-to-slf4j-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/micrometer-core-1.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/netty-3.10.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/netty-3.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/netty-all-4.1.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/pull-service-driver-dubbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/pull-service-driver-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/pull-service-driver-springcloud-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/resteasy-client-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/resteasy-jackson-provider-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/resteasy-jaxrs-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/resteasy-netty4-3.0.12.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/service-bridge-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/slf4j-log4j12-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/sofa-common-tools-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/sofa-rpc-all-5.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-actuator-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-actuator-autoconfigure-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-autoconfigure-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-actuator-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-aop-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-json-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-logging-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-thymeleaf-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-tomcat-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-boot-starter-web-2.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/tomcat-embed-core-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/tomcat-embed-el-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/tomcat-embed-websocket-9.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/xml-apis-1.4.01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/lib/zookeeper-3.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/surefire-reports/TEST-sb.core.test.Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/surefire-reports/sb.core.test.Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/springcloud-rest-provider-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/classes/META-INF/springcloud-rest-registry.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/classes/sb/rest/springcloud/registry/RegisterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/springcloud-rest-registry-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-consumer/target/dubbo-rpc-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-consumer/target/dubbo-rpc-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-interface/target/dubbo-rpc-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-interface/target/dubbo-rpc-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/src/main/java/sb/rpc/dubbo/DubboProviderZookeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/src/main/java/sb/rpc/dubbo/DubboProviderZookeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/target/classes/sb/rpc/dubbo/DubboProviderZookeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/classes/sb/rpc/dubbo/DubboProviderZookeeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/target/dubbo-rpc-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/dubbo-rpc-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/config_directory/cs-aliyun-isjinhao-dubbo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/config_directory/cs-localhost-grpc-native.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/config_directory/ps-aliyun-isjinhao-sofarpc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/config_directory/ps-localhost-grpc-native-1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/config_directory/ps-localhost-grpc-native-2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-dubbo/target/expose-service-driver-dubbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-dubbo/target/expose-service-driver-dubbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-grpc-native/target/expose-service-driver-grpc-native-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-grpc-native/target/expose-service-driver-grpc-native-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-interface/target/expose-service-driver-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-interface/target/expose-service-driver-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-rest/target/expose-service-driver-rest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-rest/target/expose-service-driver-rest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-sofarpc/target/expose-service-driver-sofarpc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expose-service-driver-sofarpc/target/expose-service-driver-sofarpc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expsoe-service-driver-grpc-dubbo/target/expsoe-service-driver-grpc-dubbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/expose-service-driver/expsoe-service-driver-grpc-dubbo/target/expsoe-service-driver-grpc-dubbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/grpc-rpc-native-common/target/grpc-rpc-native-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/grpc-rpc-native-common/target/grpc-rpc-native-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/grpc-rpc-native-consumer/target/grpc-rpc-native-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/grpc-rpc-native-consumer/target/grpc-rpc-native-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/src/main/java/sb/pull/dubbo/PullServiceDriverDubbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/src/main/java/sb/pull/dubbo/PullServiceDriverDubbo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/target/classes/sb/pull/dubbo/PullServiceDriverDubbo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/target/classes/sb/pull/dubbo/PullServiceDriverDubbo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/target/pull-service-driver-dubbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-dubbo/target/pull-service-driver-dubbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-grpc-dubbo/target/pull-service-driver-grpc-dubbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-grpc-dubbo/target/pull-service-driver-grpc-dubbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-grpc-native/target/pull-service-driver-grpc-native-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-grpc-native/target/pull-service-driver-grpc-native-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-interface/target/pull-service-driver-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-interface/target/pull-service-driver-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-sofarpc/target/pull-service-driver-sofarpc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-sofarpc/target/pull-service-driver-sofarpc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-springcloud/src/main/java/sb/pull/springcloud/StubClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-springcloud/src/main/java/sb/pull/springcloud/StubClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-springcloud/target/pull-service-driver-springcloud-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/pull-service-driver/pull-service-driver-springcloud/target/pull-service-driver-springcloud-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-client/target/service-bridge-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-client/target/service-bridge-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-common/target/service-bridge-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-common/target/service-bridge-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/ServiceBridgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/ServiceBridgeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/init/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/init/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/jar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/jar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/other/controller/fileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/other/controller/fileController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/other/controller/jarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/resources/static/other/controller/jarController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/META-INF/service-bridge-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/sb/core/ServiceBridgeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/sb/core/ServiceBridgeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/sb/core/init/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/sb/core/init/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/jar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/jar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/other/controller/fileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/other/controller/fileController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/other/controller/jarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/classes/static/other/controller/jarController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/service-bridge-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/service-bridge-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/target/service-bridge-core-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sofarpc-rpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sofarpc-rpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/sb/rest/springcloud/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/sb/rest/springcloud/ProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/springcloud-rest-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/springcloud-rest-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/src/main/java/sb/rest/sptingcloud/registry/RegisterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/src/main/java/sb/rest/springcloud/registry/RegisterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/classes/sb/rest/sptingcloud/registry/RegisterApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/springcloud-rest-registry-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-registry/target/springcloud-rest-registry-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../毕设/~$浩毕业设计-3.0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../毕设/詹金浩毕业设计-3.0.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../毕设/詹金浩毕业设计-3.0.doc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TdTDZjtBC2NbuQeWJlVhBsaQUh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-rpc-provider/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37021276" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sb.rpc.dubbo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DubboProviderZookeeper">
+    <configuration name="DubboConsumeDubboZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.dubbo.DubboConsumeDubboZookeeper" />
+      <module name="dubbo-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboConsumeDubboZookeeper2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.dubbo.DubboConsumeDubboZookeeper2" />
+      <module name="dubbo-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboConsumeSofarpcZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.dubbo.DubboConsumeSofarpcZookeeper" />
+      <module name="dubbo-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboConsumeSpringcloudEureka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.dubbo.DubboConsumeSpringcloudEureka" />
+      <module name="dubbo-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProviderZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.dubbo.DubboProviderZookeeper" />
+      <module name="dubbo-rpc-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DubboProviderZookeeper" />
+        <item itemvalue="Application.DubboConsumeSpringcloudEureka" />
+        <item itemvalue="Application.DubboConsumeDubboZookeeper" />
+        <item itemvalue="Application.DubboConsumeDubboZookeeper2" />
+        <item itemvalue="Application.DubboConsumeSofarpcZookeeper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af6c51a5-b3a0-4499-84cd-256c359923e6" name="Default Changelist" comment="" />
+      <created>1573788853349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573788853349</updated>
+      <workItem from="1573788854983" duration="6047000" />
+      <workItem from="1573879801704" duration="1550000" />
+      <workItem from="1573976798819" duration="9180000" />
+      <workItem from="1574069450617" duration="145000" />
+      <workItem from="1575709134853" duration="1882000" />
+      <workItem from="1584325193090" duration="8743000" />
+      <workItem from="1584533986517" duration="386000" />
+      <workItem from="1586654368381" duration="5178000" />
+      <workItem from="1586748513825" duration="613000" />
+      <workItem from="1587187598033" duration="14423000" />
+      <workItem from="1587567567530" duration="7678000" />
+      <workItem from="1587738935003" duration="4665000" />
+      <workItem from="1587990593264" duration="2378000" />
+      <workItem from="1588043649826" duration="6383000" />
+      <workItem from="1588390243747" duration="21593000" />
+      <workItem from="1588645321050" duration="8285000" />
+      <workItem from="1588743771599" duration="2817000" />
+      <workItem from="1589006750370" duration="5284000" />
+      <workItem from="1589078021350" duration="4262000" />
+      <workItem from="1589806048521" duration="1545000" />
+      <workItem from="1589854498513" duration="1796000" />
+      <workItem from="1589878874039" duration="824000" />
+      <workItem from="1589942168241" duration="1225000" />
+      <workItem from="1589945502374" duration="6839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1587991366762">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1587991366762" />
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589952278023">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1589952278023" />
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587187624897">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1587187624897" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1589952310724">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589952310724" />
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom" timestamp="1589978178890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589978178890" />
+    <state width="1493" height="175" key="GridCell.Tab.0.center" timestamp="1589978178890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589978178890" />
+    <state width="1493" height="175" key="GridCell.Tab.0.left" timestamp="1589978178890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589978178890" />
+    <state width="1493" height="175" key="GridCell.Tab.0.right" timestamp="1589978178890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589978178890" />
+    <state width="1493" height="376" key="GridCell.Tab.1.bottom" timestamp="1587630882725">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587630882725" />
+    <state width="1493" height="376" key="GridCell.Tab.1.center" timestamp="1587630882723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1587630882723" />
+    <state width="1493" height="376" key="GridCell.Tab.1.left" timestamp="1587630882723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1587630882723" />
+    <state width="1493" height="376" key="GridCell.Tab.1.right" timestamp="1587630882724">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1587630882724" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589952315374">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1589952315374" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1589879371806">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1589879371806" />
+    <state x="540" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587991362093">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1587991362093" />
+    <state width="340" height="140" key="javadoc.popup.new" timestamp="1589963231047">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="340" height="140" key="javadoc.popup.new/0.0.1536.834@0.0.1536.834" timestamp="1589963231047" />
+    <state x="178" y="112" key="new project wizard" timestamp="1588064311454">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1588064311454" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1587610119297">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1587610119297" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+loadJar         (String pullRegistryId, String jarName)
+loadService     (String pullRegistryId, String jarName, String serviceName, String version, String className)
+exposeService   (String pullRegistryId, String exposeRegistryId, String serviceName, String version)
+shutdownService (String pullRegistryId, String exposeRegistryId, String serviceName, String version)
+releaseService  (String pullRegistryId, String jarName, String serviceName, String version)
+releaseJar      (String pullRegistryId, String jarName)

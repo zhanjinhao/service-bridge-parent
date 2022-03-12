@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <title>Service Bridge - Cs</title>
+		
+		<!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		
+		<!-- Feathericon CSS -->
+        <link rel="stylesheet" href="assets/css/feathericon.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<link rel="stylesheet" href="assets/css/style-me.css">
+
+		<link rel="stylesheet" href="other/pagination/pagination.css">
+
+		<link rel="stylesheet" href="assets/plugins/boostrap-select/bootstrap-select.min.css">
+
+    </head>
+    <body  ng-app="sb" ng-controller="csController" ng-init="">
+	
+		<!-- Main Wrapper -->
+        <div class="main-wrapper">
+		
+			<!-- Header -->
+            <div class="header">
+			
+				<!-- Logo -->
+                <div class="header-left">
+                    <a href="index.html" class="logo">
+						<img src="assets/img/logo.png" alt="Logo">
+					</a>
+					<a href="index.html" class="logo logo-small">
+						<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+					</a>
+                </div>
+				<!-- /Logo -->
+				
+				<a href="javascript:void(0);" id="toggle_btn">
+					<i class="fe fe-text-align-left"></i>
+				</a>
+
+				<div class="top-nav-search">
+					<form>
+						<input type="text" id="searchSkeletonsNameLike" class="form-control" placeholder="Search Skeletons Here">
+						<button class="btn" type="submit" ng-click="searchSkeletons();"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+
+				<!-- Mobile Menu Toggle -->
+				<a class="mobile_btn" id="mobile_btn">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+            </div>
+			<!-- /Header -->
+			
+			<!-- Sidebar -->
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-inner slimscroll">
+					<div id="sidebar-menu" class="sidebar-menu">
+						<ul>
+							<li>
+								<a href="jar.html"><i class="fe fe-home"></i> <span>Jars</span></a>
+							</li>
+							<li>
+								<a href="ps.html"><i class="fe fe-home"></i> <span>Provider Systems</span></a>
+							</li>
+							<li class="active">
+								<a href="cs.html"><i class="fe fe-home"></i> <span>Consumer Systems</span></a>
+							</li>
+							<li>
+								<a href="file.html"><i class="fe fe-home"></i> <span>Files</span></a>
+							</li>
+						</ul>
+					</div>
+                </div>
+            </div>
+			<!-- /Sidebar -->
+			
+			<!-- Page Wrapper -->
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="table-responsive">
+								<table class="table mb-0 table-stripped" style="text-align: center">
+									<thead>
+										<tr>
+											<th>SCSID</th>
+											<th>SPSID</th>
+											<th>服务名</th>
+											<th>版本号</th>
+											<th>状态</th>
+											<th>操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ng-repeat="skeletonInfo in skeletonInfos">
+											<td>{{skeletonInfo.scsid}}</td>
+											<td>{{skeletonInfo.spsid}}</td>
+											<td>{{skeletonInfo.serviceName}}</td>
+											<td>{{skeletonInfo.version}}</td>
+											<td ng-if="skeletonInfo.state == 1">
+												构建成功
+											</td>
+											<td class="text-center">
+												<button type="button" ng-click="removeSkeleton(skeletonInfo.scsid, skeletonInfo.spsid, skeletonInfo.serviceName, skeletonInfo.version);" class="btn btn-primary btn-sm">移除骨架</button>
+												<a data-toggle="modal" data-target="#cloneSkeleton" ng-click="clearCloneInfo();">
+												<button type="button"
+														ng-click="cloneSkeleton(skeletonInfo.spsid, skeletonInfo.serviceName, skeletonInfo.version);
+														getAllScsid(skeletonInfo.spsid, skeletonInfo.serviceName, skeletonInfo.version);
+														getAllScsid(skeletonInfo.spsid, skeletonInfo.serviceName, skeletonInfo.version);" class="btn btn-primary btn-sm">克隆</button>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<tm-pagination conf="csInfosPagination"></tm-pagination>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Main Wrapper -->
+		
+        </div>
+		<!-- /Main Wrapper -->
+
+
+		<div class="modal fade" id="cloneSkeleton" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xl-12 d-flex">
+								<div class="card flex-fill" style="box-shadow: 0 0 0px rgba(0, 0, 0, 0); margin: 0px; padding: 0px;">
+									<div class="card-body">
+										<form action="#">
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SCSID</label>
+												<div class="col-lg-9">
+													<select class="selectpicker" id="cloneSkeletonScsid" data-live-search="true" data-live-search-placeholder="Search" data-actions-box="true" data-width="100%">
+														<option ng-repeat="scsid in scsids">{{scsid}}</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">SPSID</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="cloneSkeletonSpsid" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">服务名</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="cloneSkeletonServiceName" readonly="readonly" class="form-control">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-lg-3 col-form-label">版本号</label>
+												<div class="col-lg-9">
+													<input type="text" ng-model="cloneSkeletonVersion" readonly="readonly" class="form-control">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h5 class="error-me" id="cloneSkeletonInfo"></h5>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" ng-click="refreshCurrent();" data-dismiss="modal">关闭</button>
+						<button type="button" class="btn btn-primary"  ng-click="realCloneSkeleton();">克隆</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal -->
+		</div>
+
+		<!-- jQuery -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Slimscroll JS -->
+        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script  src="assets/js/script.js"></script>
+
+		<script src="assets/js/holder.min.js"></script>
+
+		<script src="other/angularjs/angular.min.js"></script>
+		<script src="other/pagination/tm.pagination.min.js"></script>
+		<script src="other/service/base_pagination.js"></script>
+		<script src="other/controller/baseController.js"></script>
+		<script src="other/controller/csController.js"></script>
+
+		<script src="assets/plugins/boostrap-select/bootstrap-select.min.js"></script>
+
+		<script>
+			
+			function setJarName() {
+				var jar = document.getElementById('jar');
+				var fileName = jar.value;
+
+				var i = fileName.lastIndexOf("fakepath");
+
+				fileName = fileName.substring(i + 9);
+								
+				if(!/\.(jar)$/.test(fileName)){
+					setInnerHtmlValue("jarUploadInfo", "选择正确的jar文件")
+					fileName = "...";
+				}
+				document.getElementById('jarName').value = fileName;
+			}
+
+			function clearJarUploadInfo() {
+				setInnerHtmlValue("jarUploadInfo", "");
+				document.getElementById('jarName').value = "...";
+			}
+
+			function setInnerHtmlValue(id, msg){
+				document.getElementById(id).innerHTML=msg;
+			}
+
+			function uploadJar() {
+				var jar = document.getElementById('jar');
+				var fileName = jar.value;
+				var i = fileName.lastIndexOf("fakepath");
+				fileName = fileName.substring(i + 9);
+				var inputName = document.getElementById('jarName').value;
+
+				if(inputName == "..." || inputName != fileName){
+					setInnerHtmlValue("jarUploadInfo", "请选择文件！")
+					return;
+				}
+
+				var formData = new FormData();
+				formData.append('jar', $('#jar')[0].files[0]);
+
+				$.ajax({
+					url: '/upload/jar',
+					type: 'POST',
+					cache: false,
+					data: formData,
+					processData: false,
+					contentType: false
+				}).done(function(res) {
+
+					if(res.statusCode == 200){
+						setInnerHtmlValue("jarUploadInfo", "Jar包上传成功！")
+					} else if(res.statusCode == 701){
+						setInnerHtmlValue("jarUploadInfo", "Jar包已存在！")
+					} else if(res.statusCode == 500){
+						setInnerHtmlValue("jarUploadInfo", "服务器内部错误！")
+					}
+				}).fail(function(res) {
+					console.log(res);
+				});
+			}
+
+		</script>		
+    </body>
+</html>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac77b67f-5a30-431d-8958-3db483c83a06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/service-bridge-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-rpc/dubbo-rpc-consumer/dubbo-rpc-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-rpc/dubbo-rpc-interface/dubbo-rpc-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-rpc/dubbo-rpc-provider/dubbo-rpc-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-rpc/dubbo-rpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-2/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native-2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/grpc-rpc-native-common (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/operation/spi/ESDExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/operation/spi/PSDExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/operation/write/CustomWriteOperationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-bridge/service-bridge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sofarpc-rpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/ArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/ComparableAndComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/FileAndPathAndFilesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/SerializableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/src/main/java/sb/rest/springcloud/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/OrderServiceProto1.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderDetail1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderDetail1$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderDetail1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderDetail1OrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderRequest1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderRequest1$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderRequest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderRequest1OrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1BaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1BlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1FileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1FutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1ImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1MethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc$OrderService1Stub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderService1Grpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/classes/sb/rpc/grpc1/OrderServiceProto1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/grpc-java/sb/rpc/grpc1/OrderService1Grpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/java/sb/rpc/grpc1/OrderDetail1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/java/sb/rpc/grpc1/OrderDetail1OrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/java/sb/rpc/grpc1/OrderRequest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/java/sb/rpc/grpc1/OrderRequest1OrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/generated-sources/protobuf/java/sb/rpc/grpc1/OrderServiceProto1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/grpc-rpc-native-1-interface-1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/auth.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/backend.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/billing.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/client.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/config_change.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/consumer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/control.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/distribution.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/documentation.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/endpoint.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/field_behavior.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/http.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/httpbody.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/label.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/launch_stage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/logging.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/metric.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/monitored_resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/monitoring.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/quota.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/source_info.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/system_parameter.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/usage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/cloud/audit/audit_log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/geo/type/viewport.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/logging/type/http_request.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/logging/type/log_severity.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/longrunning/operations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/code.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/error_details.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/status.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/calendar_period.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/color.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/date.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/dayofweek.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/expr.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/fraction.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/latlng.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/money.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/postal_address.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/quaternion.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/timeofday.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-plugins/protoc-3.11.0-windows-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-1/target/protoc-plugins/protoc-gen-grpc-java-1.29.0-windows-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/OrderServiceProto2.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderDetail2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderDetail2$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderDetail2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderDetail2OrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderRequest2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderRequest2$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderRequest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderRequest2OrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2BaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2BlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2FileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2FutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2ImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2MethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc$OrderService2Stub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderService2Grpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/classes/sb/rpc/grpc2/OrderServiceProto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/grpc-java/sb/rpc/grpc2/OrderService2Grpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/java/sb/rpc/grpc2/OrderDetail2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/java/sb/rpc/grpc2/OrderDetail2OrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/java/sb/rpc/grpc2/OrderRequest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/java/sb/rpc/grpc2/OrderRequest2OrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/generated-sources/protobuf/java/sb/rpc/grpc2/OrderServiceProto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/grpc-rpc-native-1-interface-2-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/auth.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/backend.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/billing.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/client.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/config_change.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/consumer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/control.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/distribution.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/documentation.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/endpoint.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/field_behavior.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/http.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/httpbody.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/label.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/launch_stage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/logging.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/metric.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/monitored_resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/monitoring.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/quota.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/source_info.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/system_parameter.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/api/usage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/cloud/audit/audit_log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/geo/type/viewport.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/logging/type/http_request.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/logging/type/log_severity.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/longrunning/operations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/code.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/error_details.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/rpc/status.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/calendar_period.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/color.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/date.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/dayofweek.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/expr.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/fraction.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/latlng.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/money.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/postal_address.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/quaternion.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/783e1711d956f57a21d6578ed7e7c1e0/google/type/timeofday.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-dependencies/d83cb4c0416cfd9960b414105e62086d/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-plugins/protoc-3.11.0-windows-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-interface-2/target/protoc-plugins/protoc-gen-grpc-java-1.29.0-windows-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/grpc-rpc-native-1-provider-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/classes/sb/rpc/grpc1/GrpcProvider1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/classes/sb/rpc/grpc1/OrderService1Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/grpc-rpc-native-1-provider-1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/classes/sb/rpc/grpc2/GrpcProvider2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/classes/sb/rpc/grpc2/OrderService2Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/grpc-rpc-native-1-provider-2-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1-provider-2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native-1/grpc-rpc-native-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-2/grpc-rpc-native-2-provider-1/grpc-rpc-native-2-provider-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native-2/grpc-rpc-native-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native-2/grpc-rpc-native-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/classes/sb/rpc/grpc/ZookeeperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/classes/sb/rpc/grpc/ZookeeperUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/grpc-rpc-native-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/grpc-rpc-native-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-rpc-native/grpc-rpc-native.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/.idea/service-bridge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/ClusterManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/ClusterManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/FollowerManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/FollowerManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/LeaderManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/LeaderManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/NodeRecordEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/NodeRecordEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/NodeServiceEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/NodeServiceEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/NodeWrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/NodeWrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/cluster/SocketWrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/buffer/cluster/SocketWrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/operation/write/AbstractBasicWriteOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-bridge/service-bridge-core/src/main/java/sb/core/operation/write/AbstractBasicWriteOperationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofarpc-rpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sofarpc-rpc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-interface/springcloud-rest-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-rest/springcloud-rest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../毕设/毕业设计（论文）中期检查报告-詹金浩160341237.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../devtool/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\develop\devtool\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TdUf2Fjq2F51KSQrOejRbb7R6d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.37021276" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sb.rpc.sofarpc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SofarpcConsumeDubboZookeeper">
+    <configuration name="SofarpcConsumeDubboZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.sofarpc.SofarpcConsumeDubboZookeeper" />
+      <module name="sofarpc-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.sofarpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofarpcConsumeDubboZookeeper2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.sofarpc.SofarpcConsumeDubboZookeeper2" />
+      <module name="sofarpc-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.sofarpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofarpcConsumeSofarpcZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.sofarpc.SofarpcConsumeSofarpcZookeeper" />
+      <module name="sofarpc-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.sofarpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofarpcConsumeSpringCloudEureka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.sofarpc.SofarpcConsumeSpringCloudEureka" />
+      <module name="sofarpc-rpc-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.sofarpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofarpcProviderZookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sb.rpc.sofarpc.SofarpcProviderZookeeper" />
+      <module name="sofarpc-rpc-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sb.rpc.sofarpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SofarpcConsumeDubboZookeeper" />
+        <item itemvalue="Application.SofarpcConsumeDubboZookeeper2" />
+        <item itemvalue="Application.SofarpcConsumeSpringCloudEureka" />
+        <item itemvalue="Application.SofarpcConsumeSofarpcZookeeper" />
+        <item itemvalue="Application.SofarpcProviderZookeeper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac77b67f-5a30-431d-8958-3db483c83a06" name="Default Changelist" comment="" />
+      <created>1573789565094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573789565094</updated>
+      <workItem from="1573789566647" duration="5735000" />
+      <workItem from="1573897653515" duration="769000" />
+      <workItem from="1573995291943" duration="2886000" />
+      <workItem from="1584325240034" duration="8918000" />
+      <workItem from="1584533983253" duration="390000" />
+      <workItem from="1586654539161" duration="4398000" />
+      <workItem from="1587190602464" duration="11040000" />
+      <workItem from="1587607162394" duration="7326000" />
+      <workItem from="1587990701718" duration="748000" />
+      <workItem from="1588043640151" duration="607000" />
+      <workItem from="1588474528297" duration="17032000" />
+      <workItem from="1588590519810" duration="277000" />
+      <workItem from="1589008480445" duration="6971000" />
+      <workItem from="1589080999055" duration="3353000" />
+      <workItem from="1589854578175" duration="3326000" />
+      <workItem from="1589879391455" duration="930000" />
+      <workItem from="1589941822787" duration="1850000" />
+      <workItem from="1589945507044" duration="5432000" />
+      <workItem from="1590025798320" duration="597000" />
+      <workItem from="1590302641188" duration="6771000" />
+      <workItem from="1590418095192" duration="3181000" />
+      <workItem from="1590637502508" duration="32000" />
+      <workItem from="1590648116314" duration="940000" />
+      <workItem from="1598858345546" duration="2000" />
+      <workItem from="1626189190060" duration="880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <title>Service Bridge - Ps</title>
+		
+		<!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		
+		<!-- Feathericon CSS -->
+        <link rel="stylesheet" href="assets/css/feathericon.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<link rel="stylesheet" href="assets/css/style-me.css">
+
+		<link rel="stylesheet" href="other/pagination/pagination.css">
+
+		<link rel="stylesheet" href="assets/plugins/boostrap-select/bootstrap-select.min.css">
+
+    </head>
+    <body  ng-app="sb" ng-controller="fileController" ng-init="">
+	
+		<!-- Main Wrapper -->
+        <div class="main-wrapper">
+		
+			<!-- Header -->
+            <div class="header">
+			
+				<!-- Logo -->
+                <div class="header-left">
+                    <a href="index.html" class="logo">
+						<img src="assets/img/logo.png" alt="Logo">
+					</a>
+					<a href="index.html" class="logo logo-small">
+						<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+					</a>
+                </div>
+				<!-- /Logo -->
+				
+				<a href="javascript:void(0);" id="toggle_btn">
+					<i class="fe fe-text-align-left"></i>
+				</a>
+
+				<div class="top-nav-search">
+					<form>
+						<input type="text" id="searchFileInfoNameLike" class="form-control" placeholder="Search File Here">
+						<button ng-click="searchFiles();"  class="btn" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+
+				<!-- Mobile Menu Toggle -->
+				<a class="mobile_btn" id="mobile_btn">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+            </div>
+			<!-- /Header -->
+			
+			<!-- Sidebar -->
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-inner slimscroll">
+					<div id="sidebar-menu" class="sidebar-menu">
+						<ul>
+							<li>
+								<a href="jar.html"><i class="fe fe-home"></i> <span>Jars</span></a>
+							</li>
+							<li>
+								<a href="ps.html"><i class="fe fe-home"></i> <span>Provider Systems</span></a>
+							</li>
+							<li> 
+								<a href="cs.html"><i class="fe fe-home"></i> <span>Consumer Systems</span></a>
+							</li>
+							<li class="active">
+								<a href="file.html"><i class="fe fe-home"></i> <span>Files</span></a>
+							</li>
+						</ul>
+					</div>
+                </div>
+            </div>
+			<!-- /Sidebar -->
+			
+			<!-- Page Wrapper -->
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="table-responsive">
+										<table class="table mb-0 table-stripped" style="text-align: center">
+											<thead>
+												<tr>
+													<th>文件名</th>
+													<th>类型</th>
+													<th>状态</th>
+													<th>操作</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr ng-repeat="fileInfo in fileInfos">
+													<td>{{fileInfo.name}}</td>
+													<td ng-if="fileInfo.type == 1">
+														Jar包
+													</td>
+													<td ng-if="fileInfo.type == 2">
+														IDL文件
+													</td>
+													<td ng-if="fileInfo.state == 1">
+														正在使用
+													</td>
+													<td ng-if="fileInfo.state == 2">
+														未使用
+													</td>
+													<td class="text-center">
+														<button type="button" ng-click="downLoadFile(fileInfo.name)" class="btn btn-primary btn-sm">下载</button>
+														<button ng-if="fileInfo.state != 1" ng-click="deleteFile(fileInfo.name)" type="button" class="btn btn-primary btn-sm">删除</button>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<tm-pagination conf="fileInfosPagination"></tm-pagination>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Main Wrapper -->
+		
+        </div>
+		<!-- /Main Wrapper -->
+
+		<!-- jQuery -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Slimscroll JS -->
+        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script  src="assets/js/script.js"></script>
+
+		<script src="assets/js/holder.min.js"></script>
+
+		<script src="other/angularjs/angular.min.js"></script>
+		<script src="other/pagination/tm.pagination.min.js"></script>
+		<script src="other/service/base_pagination.js"></script>
+		<script src="other/controller/baseController.js"></script>
+		<script src="other/controller/fileController.js"></script>
+
+		<script src="assets/plugins/boostrap-select/bootstrap-select.min.js"></script>
+
+    </body>
+</html>

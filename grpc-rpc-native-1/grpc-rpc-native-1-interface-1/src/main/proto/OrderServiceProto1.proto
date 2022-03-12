@@ -1,0 +1,23 @@
+syntax = "proto3";
+package grpcnative;
+option java_package = "sb.rpc.grpc1";
+option java_outer_classname = "OrderServiceProto1";
+option java_multiple_files = true;
+
+// The greeting service definition.
+service OrderService1 {
+    // Sends a greeting
+    rpc getOrderDetail (OrderRequest1) returns (OrderDetail1) {}
+}
+
+message OrderRequest1 {
+    string orderId = 1;
+}
+
+message OrderDetail1 {
+    string name = 1;
+    uint64 date = 2;
+    double price = 3;
+    string buyer = 4;
+    string seller = 5;
+}
